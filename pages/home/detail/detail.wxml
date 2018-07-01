@@ -1,0 +1,52 @@
+<!-- pages/home/detail/detail.wxml -->
+<view class="bac">
+    <view class="banner">
+        <image src="../../../images/homeBanner1.png"></image>
+    </view>
+    <view class="detail_box">
+        <view class="til" style="overflow:hidden;">
+            <view class="name left">个人能力测评</view>
+            <view class="discounts left">买一送一</view>
+        </view>
+        <view class="money">￥9.9</view>
+        <view class="detail_list">
+            <view class="list">创建人：ABC</view>
+            <view class="list">题目数量：39题</view>
+            <view class="list">考试时间：10分钟</view>
+            <view class="list">参与人数：1.6万人</view>
+        </view>
+    </view>
+    <view class="create" bindtap="createTeam">
+        <text class="text left">查看评分统计</text>
+        <view class="img_box right">
+            <image src="../../../images/more.png" style="width:16rpx;height:28rpx;"></image>
+        </view>
+    </view>
+    <view class="create" bindtap="createTeam">
+        <text class="text left">自评他评对比</text>
+        <view class="img_box right">
+            <image src="../../../images/more.png" style="width:16rpx;height:28rpx;"></image>
+        </view>
+    </view>
+    <view class="state_til">评测说明</view>
+    <view class="testState">
+        这是一个又能力的评测
+        1985年5月6日，克里斯·保罗出生于北卡州的路易斯
+维尔。他的父母查尔斯和罗宾此前几年曾生下一个男孩，C.J.保罗。查尔斯是NFL达拉斯牛仔的忠实粉丝，但保罗的运动基因却继承自母亲一方，包括其外祖父纳撒尼尔·琼斯。绰号为“冷酷老爹”的琼斯居住于离保罗家不远的温斯顿·萨伦。他开办了一个加油站，成为在北卡州第一个拥有加油站的黑人，由此也成为当地的传奇人物。而保罗也喜欢帮外祖父干活，帮他更换滤油器，并在顾客前来加油时，替顾客擦拭挡风玻璃。在保罗看来，外祖父是他最好的朋友，他俩总是无话不谈。此外，保罗还是哥哥的跟屁虫，不管哥哥到哪里，他都尾随其后，以至于朋友们都笑他是小宠物。
+    </view>
+    <view class="bottom_box">
+        <view class="yes bottom_icon left">
+            <view class="img">
+                <image src="../../../images/yes_icon.png"></image>
+            </view>
+            <view class="text">520</view>
+        </view>
+        <view class="send bottom_icon left">
+            <view class="img">
+                <image src="../../../images/send_icon.png"></image>
+            </view>
+            <view class="text">赠送好友</view>
+        </view>
+        <view class="join right">进入评测</view>
+    </view>
+</view>

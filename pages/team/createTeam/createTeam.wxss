@@ -1,0 +1,61 @@
+/* pages/create/create.wxss */
+.bac {
+    background-color: #f0f0f6;
+    padding-top: 20rpx;
+    height: 100vh;
+    width: 100vw;
+}
+.name {
+    overflow: hidden;
+    background: #fff;
+    width: 100%;
+    line-height: 80rpx;
+    /* margin: 20rpx 0; */
+    /* border: 2rpx solid #e0e0e0; */
+}
+
+.name_til {
+    /* font-weight: 600; */
+    color: #1b1b1b;
+    font-size: 30rpx;
+    padding-left: 30rpx;
+    height: 80rpx;
+    line-height: 80rpx;
+}
+
+.name_input {
+    height: 80rpx;
+    line-height: 80rpx;
+    color: #666;
+    font-size: 28rpx;
+    padding-left: 40rpx;
+    width: 450rpx;
+    border: 0;
+    /* margin: 0; */
+    /* margin-top: 2%; */
+}
+
+
+.but_box {
+    margin-top: 40rpx;
+    padding: 0 30rpx;
+}
+
+.success .text {
+    color: #1b1b1b;
+    font-size: 32rpx;
+    margin: 30rpx 0 80rpx;
+    text-align: center;
+}
+
+.success .img_box {
+    width: 200rpx;
+    height: 200rpx;
+    margin: 120rpx auto 0;
+}
+
+.success image {
+    width: 200rpx;
+    height: 200rpx;
+
+}

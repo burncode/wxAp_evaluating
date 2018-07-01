@@ -1,0 +1,33 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+button {
+  color: #fff;
+  background-color: #67caf2;
+}
+
+button:disabled {
+  color: #fff;
+  background-color: #ccc;
+
+}
+
+.button-hover {
+  color: #fff;
+  background-color: #67caf2;
+}

@@ -1,0 +1,144 @@
+/* pages/home/detail/detail.wxss */
+
+.banner {
+    width: 100vw;
+    height: 360rpx;
+    overflow: hidden;
+}
+
+.banner image {
+    width: 100vw;
+    height: 360rpx;
+}
+
+/* 题目信息 */
+
+.detail_box {
+    padding: 30rpx;
+    padding-bottom: 0;
+    border-bottom: 20rpx solid #f0f0f6;
+}
+
+.detail_box .til .name {
+    font-size: 34rpx;
+    color: #1b1b1b;
+    margin-right: 20rpx;
+    font-weight: 600;
+    line-height: 44rpx;
+}
+
+.detail_box .til .discounts {
+    color: #ff6326;
+    font-size: 24rpx;
+    padding: 0 16rpx;
+    border: 2rpx solid #ff6326;
+    border-radius: 4rpx;
+    height: 44rpx;
+    line-height: 44rpx;
+}
+
+.detail_box .money {
+    color: #ff6326;
+    font-size: 48rpx;
+    margin: 20rpx 0;
+}
+
+.detail_list {
+    font-size: 28rpx;
+    color: #999;
+    overflow: hidden;
+}
+
+.detail_list .list {
+    float: left;
+    width: 50%;
+    padding-bottom: 20rpx;
+}
+
+/* 标题栏 */
+
+.create {
+    overflow: hidden;
+    /* border-top: 20rpx solid #f0f0f6; */
+    border-bottom: 2rpx solid #f0f0f6;
+    padding: 0 30rpx;
+}
+
+.create .img_box {
+    padding-top: 3%;
+}
+
+.create .text {
+    font-size: 28rpx;
+    /* font-weight: 600; */
+    color: #1b1b1b;
+    height: 88rpx;
+    line-height: 88rpx;
+}
+
+.state_til {
+    font-size: 32rpx;
+    font-weight: 600;
+    color: #1b1b1b;
+    height: 88rpx;
+    line-height: 88rpx;
+    padding-left: 30rpx;
+    border-top: 20rpx solid #f0f0f6;
+    border-bottom: 2rpx solid #f0f0f6;
+}
+
+.testState {
+    padding: 30rpx;
+    font-size: 28rpx;
+    color: #1b1b1b;
+}
+
+/* 底下按钮栏 */
+
+.bottom_box {
+    position: fixed;
+    bottom: 0;
+    height: 98rpx;
+    border-top: 2rpx solid #f0f0f6;
+    overflow: hidden;
+    width: 100%;
+    background-color: #fff;
+}
+
+/* .bottom_box .yes {
+    width: 25%;
+}
+
+.bottom_box .send {
+} */
+
+.bottom_box .bottom_icon {
+    width: 25%;
+}
+
+.bottom_icon .img {
+    width: 40rpx;
+    height: 40rpx;
+    margin: 16rpx auto 10rpx;
+}
+
+.bottom_icon image {
+    width: 40rpx;
+    height: 40rpx;
+}
+
+.bottom_icon .text {
+    text-align: center;
+    font-size: 20rpx;
+    color: #999;
+}
+
+.bottom_box .join {
+    width: 50%;
+    height: 100%;
+    background-color: #67CAF3;
+    color: #fff;
+    font-size: 32rpx;
+    text-align: center;
+    line-height: 98rpx;
+}

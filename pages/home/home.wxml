@@ -1,0 +1,68 @@
+<!-- pages/home/home.wxml -->
+<view class="bac">
+    <swiper class="swiper" indicator-active-color="#67CAF3" indicator-dots="true" autoplay="true" interval="2000" duration="500">
+        <block wx:for="{{imgUrls}}">
+            <swiper-item>
+                <image src="{{item}}" class="slide-image" width="355" height="150" />
+            </swiper-item>
+        </block>
+    </swiper>
+    <view class="testTil">
+        <text class="left">我的评测</text>
+        <view class="img_box right">
+            <image src="../../images/more.png" style="width:16rpx;height:28rpx;"></image>
+        </view>
+        <view class="more right" bindtap="toAllList">查看更多</view>
+    </view>
+    <!-- 评测列表 -->
+    <view class="item_box">
+        <view class="item">
+            <view class="img left" bindtap="goDetail">
+                <image src="../../images/homeBanner1.png"></image>
+            </view>
+            <view class="text_box left" bindtap="goDetail">
+                <view class="til" style="font-size:32rpx;color:#1b1b1b;">综合能力测试</view>
+                <view class="text" style="font-size:28rpx;color:#1b1b1b;margin: 20rpx 0;">能力测试说明</view>
+                <view class="num_box" style="font-size:28rpx;">
+                    <view class="money left" style="color:#ff6326;width:100rpx;">免费</view>
+                    <view class="num left" style="color:#999;">199人已测</view>
+                </view>
+            </view>
+            <view class="but_box right">
+                <button class="but" bindtap="join">测试</button>
+            </view>
+        </view>
+        <view class="item">
+            <view class="img left" bindtap="goDetail">
+                <image src="../../images/homeBanner1.png"></image>
+            </view>
+            <view class="text_box left" bindtap="goDetail">
+                <view class="til" style="font-size:32rpx;color:#1b1b1b;">篮球基本功测试</view>
+                <view class="text" style="font-size:28rpx;color:#1b1b1b;margin: 20rpx 0;">能力测试说明</view>
+                <view class="num_box" style="font-size:28rpx;">
+                    <view class="money left" style="color:#ff6326;width:100rpx;">免费</view>
+                    <view class="num left" style="color:#999;">199人已测</view>
+                </view>
+            </view>
+            <view class="but_box right">
+                <button class="but" bindtap="join">测试</button>
+            </view>
+        </view>
+        <view class="item">
+            <view class="img left" bindtap="goDetail">
+                <image src="../../images/homeBanner1.png"></image>
+            </view>
+            <view class="text_box left" bindtap="goDetail">
+                <view class="til" style="font-size:32rpx;color:#1b1b1b;">个人能力测试</view>
+                <view class="text" style="font-size:28rpx;color:#1b1b1b;margin: 20rpx 0;">能力测试说明</view>
+                <view class="num_box" style="font-size:28rpx;">
+                    <view class="money left" style="color:#ff6326;width:100rpx;">免费</view>
+                    <view class="num left" style="color:#999;">199人已测</view>
+                </view>
+            </view>
+            <view class="but_box right">
+                <button class="but" bindtap="join">测试</button>
+            </view>
+        </view>
+    </view>
+</view>

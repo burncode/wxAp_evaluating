@@ -1,0 +1,22 @@
+<!-- pages/create/create.wxml -->
+<view class="bac">
+    <!-- <view class="input_box">
+        <input type="text" id="test" placeholder="怎么称呼TA?(不超过10个字)" bindinput="getInputValue"></input>
+    </view> -->
+    <view wx:if="{{!success}}">
+        <view class="name">
+            <text class="name_til left">团体名称</text>
+            <input class="name_input left" placeholder-style="color: #cececf;" placeholder="请输入新的团体名称"></input>
+        </view>
+        <view class="but_box">
+            <button class="but" bindtap='create'>创建</button>
+        </view>
+    </view>
+    <view class="success" wx:if="{{success}}">
+        <view class="img_box"><image src="../../../images/success.png"></image></view>
+        <view class="text">您的团队已创建成功</view>
+        <view class="but_box">
+            <button class="but" bindtap="toMyTeam">返回我的团队</button>
+        </view>
+    </view>
+</view>

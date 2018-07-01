@@ -1,0 +1,87 @@
+<!-- pages/team/team.wxml -->
+<view class="bac">
+    <view class="state_til">说明</view>
+    <view class="text_box">
+        <view class="t1">创建测评后你可以指定团体人员为评测对象，评委，汇总结果，明细结果查看人</view>
+        <view class="t1">把团体页面发送至微信群可以登记团体成员</view>
+    </view>
+    <view class="create" bindtap="createTeam">
+        <text class="text left">创建团体</text>
+        <view class="img_box right">
+            <image src="../../images/more.png" style="width:18rpx;height:32rpx;"></image>
+        </view>
+    </view>
+    <view class="myTeam">
+        <view class="state_til">我的团体</view> 
+        <view class="teamLists">
+            <view class="item">
+                <view class="name">研发部门</view>
+                <view class="action" style="overflow: hidden;">
+                    <view class="edit right" style="width:100rpx;height:32rpx;">
+                        <image src="../../images/delete.png" class="left"></image>
+                        <view class="left">删除</view>
+                    </view>
+                    <view class="edit right" style="width:100rpx;height:32rpx;">
+                        <image src="../../images/edit.png" class="left"></image>
+                        <view class="left">编辑</view>
+                    </view>
+                    <view class="edit right" style="width:100rpx;height:32rpx;">
+                        <image src="../../images/share.png" class="left"></image>
+                        <view class="left">转发</view>
+                    </view>
+                </view>
+            </view>
+            <view class="item">
+                <view class="name">公司</view>
+                <view class="action" style="overflow: hidden;">
+                    <view class="edit right" style="width:100rpx;height:32rpx;">
+                        <image src="../../images/delete.png" class="left"></image>
+                        <view class="left">删除</view>
+                    </view>
+                    <view class="edit right" style="width:100rpx;height:32rpx;">
+                        <image src="../../images/edit.png" class="left"></image>
+                        <view class="left">编辑</view>
+                    </view>
+                    <view class="edit right" style="width:100rpx;height:32rpx;">
+                        <image src="../../images/share.png" class="left"></image>
+                        <view class="left">转发</view>
+                    </view>
+                </view>
+            </view>
+            <view class="item">
+                <view class="name">营销部门</view>
+                <view class="action" style="overflow: hidden;">
+                    <view class="edit right" style="width:100rpx;height:32rpx;">
+                        <image src="../../images/delete.png" class="left"></image>
+                        <view class="left">删除</view>
+                    </view>
+                    <view class="edit right" style="width:100rpx;height:32rpx;">
+                        <image src="../../images/edit.png" class="left"></image>
+                        <view class="left">编辑</view>
+                    </view>
+                    <view class="edit right" style="width:100rpx;height:32rpx;">
+                        <image src="../../images/share.png" class="left"></image>
+                        <view class="left">转发</view>
+                    </view>
+                </view>
+            </view>
+            <view class="item">
+                <view class="name">技术部门</view>
+                <view class="action" style="overflow: hidden;">
+                    <view class="edit right" style="width:100rpx;height:32rpx;">
+                        <image src="../../images/delete.png" class="left"></image>
+                        <view class="left">删除</view>
+                    </view>
+                    <view class="edit right" style="width:100rpx;height:32rpx;">
+                        <image src="../../images/edit.png" class="left"></image>
+                        <view class="left">编辑</view>
+                    </view>
+                    <view class="edit right" style="width:100rpx;height:32rpx;">
+                        <image src="../../images/share.png" class="left"></image>
+                        <view class="left">转发</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

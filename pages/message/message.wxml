@@ -1,0 +1,41 @@
+<!-- pages/message/message.wxml -->
+<view class="bac">
+    <view class="item">
+        <view class="img_box left">
+            <image src="../../images/message1.png"></image>
+        </view>
+        <view class="text_box right">
+            <view class="til">
+                <text class="left" style="font-size: 30rpx;color:#1b1b1b;">审核通过</text>
+                <text class="right" style="font-size: 24rpx;color:#999;">2018-05-08</text>
+            </view>
+            <view class="text">恭喜您，您的审核已通过！</view>
+        </view>
+    </view>
+
+    <view class="item">
+        <view class="img_box left">
+            <image src="../../images/message2.png"></image>
+        </view>
+        <view class="text_box right">
+            <view class="til">
+                <text class="left" style="font-size: 30rpx;color:#1b1b1b;">入账通知</text>
+                <text class="right" style="font-size: 24rpx;color:#999;">2018-05-08</text>
+            </view>
+            <view class="text">您的账户入账10元，个人余额200元！</view>
+        </view>
+    </view>
+
+    <view class="item">
+        <view class="img_box left">
+            <image src="../../images/message2.png"></image>
+        </view>
+        <view class="text_box right">
+            <view class="til">
+                <text class="left" style="font-size: 30rpx;color:#1b1b1b;">体现通知</text>
+                <text class="right" style="font-size: 24rpx;color:#999;">2018-05-08</text>
+            </view>
+            <view class="text">您的账户提现10元，个人余额200元！</view>
+        </view>
+    </view>
+</view>

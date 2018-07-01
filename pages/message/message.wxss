@@ -1,0 +1,31 @@
+/* pages/message/message.wxss */
+
+.item {
+    padding: 30rpx;
+    border-bottom: 2rpx solid #f0f0f6;
+    overflow: hidden;
+}
+
+.item .img_box {
+    width: 100rpx;
+    height: 100rpx;
+}
+
+.img_box image {
+    width: 100rpx;
+    height: 100rpx;
+}
+
+.text_box {
+    width: 564rpx;
+}
+
+.text_box .til {
+    overflow: hidden;
+    padding: 12rpx 0;
+}
+
+.text_box .text {
+    font-size: 26rpx;
+    color: #999;
+}

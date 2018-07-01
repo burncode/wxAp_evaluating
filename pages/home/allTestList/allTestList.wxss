@@ -1,0 +1,31 @@
+/* pages/home/allTestList/allTestList.wxss */
+/* 评测列表 */
+.item_box {
+    padding-bottom: 40rpx;
+}
+
+.item_box .item {
+    overflow: hidden;
+    padding: 30rpx;
+    border-bottom: 2rpx solid #f0f0f6;
+}
+
+.item_box .img {
+    width: 160rpx;
+    height: 160rpx;
+    margin-right: 20rpx;
+}
+
+.item_box .item image {
+    width: 160rpx;
+    height: 160rpx;
+
+}
+
+.item_box .but {
+    font-size: 28rpx;
+    width: 140rpx;
+    height: 64rpx;
+    line-height: 64rpx;
+    margin-top: 28%;
+}

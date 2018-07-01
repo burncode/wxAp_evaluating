@@ -1,0 +1,84 @@
+/* pages/team/team.wxss */
+
+.state_til {
+    font-size: 32rpx;
+    font-weight: 600;
+    color: #1b1b1b;
+    padding: 0 30rpx;
+    height: 88rpx;
+    line-height: 88rpx;
+    border-bottom: 2rpx solid #f0f0f6;
+}
+
+.text_box {
+    padding: 40rpx 30rpx;
+}
+
+.text_box .t1,
+.text_box .t2 {
+    font-size: 28rpx;
+    color: #2e2e2e;
+    line-height: 40rpx;
+}
+
+.text_box .t1 {
+    margin-bottom: 30rpx;
+}
+
+.create {
+    overflow: hidden;
+    border-top: 20rpx solid #f0f0f6;
+    border-bottom: 20rpx solid #f0f0f6;
+    padding: 0 30rpx;
+}
+
+.create .img_box {
+    padding-top: 3%;
+}
+
+.create .text {
+    font-size: 32rpx;
+    font-weight: 600;
+    color: #1b1b1b;
+    height: 88rpx;
+    line-height: 88rpx;
+}
+
+/* 我的团体列表 */
+.myTeam {
+    padding-bottom: 40rpx;
+}
+
+.myTeam .item {
+    padding: 0 30rpx 20rpx;
+    border-bottom: 2rpx solid #f0f0f6;
+}
+
+.myTeam .item .name {
+    font-size: 30rpx;
+    font-weight: 600;
+    color: #ff6326;
+    padding: 30rpx 0;
+}
+
+.myTeam .action {
+    color: #999;
+    font-size: 24rpx;
+}
+
+.myTeam .action image {
+    width: 32rpx;
+    height: 32rpx;
+    margin-right: 10rpx;
+    /* margin-top: 10rpx; */
+}
+
+.myTeam .action text {
+    height: 32rpx;
+    line-height: 32rpx;
+    /* padding-top: -10rpx; */
+}
+
+.myTeam .edit {
+    margin-left: 34rpx;
+}

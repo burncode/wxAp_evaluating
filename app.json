@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/home/detail/detail",
+    "pages/team/team",
+    "pages/index/index",
+    "pages/message/message",
+    "pages/information/information",
+    "pages/create/create",
+    "pages/home/allTestList/allTestList",
+    "pages/team/createTeam/createTeam"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "评测小程序",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "selectedColor": "#67CAF3",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "images/tabHome1.png",
+        "selectedIconPath": "images/tabHome2.png"
+      },
+      {
+        "pagePath": "pages/create/create",
+        "text": "创建测评",
+        "iconPath": "images/tabChange1.png",
+        "selectedIconPath": "images/tabChange2.png"
+      },
+      {
+        "pagePath": "pages/team/team",
+        "text": "我的团队",
+        "iconPath": "images/tabTeam1.png",
+        "selectedIconPath": "images/tabTeam2.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "信息",
+        "iconPath": "images/tabMessage1.png",
+        "selectedIconPath": "images/tabMessage2.png"
+      },
+      {
+        "pagePath": "pages/information/information",
+        "text": "资料",
+        "iconPath": "images/tabInformation1.png",
+        "selectedIconPath": "images/tabInformation2.png"
+      }
+    ]
+  }
+}

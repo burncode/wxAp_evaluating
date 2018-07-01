@@ -1,0 +1,57 @@
+.state_til {
+    font-size: 32rpx;
+    font-weight: 600;
+    color: #1b1b1b;
+    padding: 0 30rpx;
+    height: 88rpx;
+    line-height: 88rpx;
+    border-bottom: 2rpx solid #f0f0f6;
+}
+
+.text_box {
+    padding: 40rpx 30rpx;
+}
+
+.text_box .t1,
+.text_box .t2 {
+    font-size: 28rpx;
+    color: #2e2e2e;
+    line-height: 40rpx;
+}
+
+.text_box .t1 {
+    margin-bottom: 30rpx;
+}
+
+.create {
+    overflow: hidden;
+    border-top: 20rpx solid #f0f0f6;
+    border-bottom: 2rpx solid #f0f0f6;
+    padding: 0 30rpx;
+}
+
+.create .text {
+    font-size: 32rpx;
+    font-weight: 600;
+    color: #1b1b1b;
+    height: 88rpx;
+    line-height: 88rpx;
+}
+
+.template1_box {
+    font-size: 28rpx;
+    color: #2e2e2e;
+}
+
+.template1_box .template1 {
+    padding: 20rpx 0 30rpx 30rpx;
+}
+
+.template1_box .template2 {
+    padding: 0 0 20rpx 64rpx;
+    
+}
+.template1_box .template3 {
+    padding: 0 0 6rpx 130rpx;
+    
+}
